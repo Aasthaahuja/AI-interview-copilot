@@ -1,5 +1,5 @@
-const Feedback = require('../models/Feedback.model')
-const Interview = require('../models/Interview.model')
+const Feedback = require('../models/Feedback.Model')
+const Interview = require('../models/Interview.Model')
 const { evaluateAnswers } = require('../utils/gemini')
 
 const generateFeedback = async (req, res) => {
