@@ -1,4 +1,4 @@
-const Interview = require('../models/Interview.model')
+const User = require('../models/User.Model')
 const User = require('../models/User.model')
 const { generateInterviewQuestions } = require('../utils/gemini')
 
