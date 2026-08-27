@@ -1,4 +1,4 @@
-const User = require('../models/User.model')
+const User = require('../models/User.Model')
 const pdfParse = require('pdf-parse')
 const { extractResumeData } = require('../utils/gemini')
 
